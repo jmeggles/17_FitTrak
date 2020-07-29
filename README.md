@@ -39,14 +39,15 @@
   ## Benefit
   
 
-  ## License ![APM](https://img.shields.io/apm/l/npm?color=pink&style=plastic)
-  [MIT License](https://opensource.org/licenses/MIT)
-
   ## Credits
   John Dinsmore, Jorge Alvarez, & Ben Benson with *WebDev Tutoring*
 
   ## Tests
  
+  ## License ![APM](https://img.shields.io/apm/l/npm?color=pink&style=plastic)
+  [MIT License](https://opensource.org/licenses/MIT)
+  
+  Copyright © 2020 Jody Eggleston 
 
   ## Contribute
   For comments and/or questions, contact Jody Eggleston via 
