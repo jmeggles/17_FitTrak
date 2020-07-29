@@ -6,18 +6,19 @@
 
   ## Table of Contents:
   - [Links](#Links)
-  - [Screenshots_and_GIFs](#Screenshots_and_GIFs)
+  - [Screenshots and GIFs](#Screenshots_and_GIFs)
   - [Motivation](#Motivation)
   - [Installation](#Installation)
-  - [How_to_use](#How_to_use)
+  - [How to use](#How_to_use)
   - [Benefit](#Benefit)
   - [License](#License)
   - [Tests](#Tests)
   - [Contribute](#Contribute)
 
- ## Links
-  - (https://jmeggles.github.io/nameofproject/)
-  - (https://github.com/jmeggles/nameofproject)
+  ## Links
+  - [Heroku](https://nameofherokuproject.herokuapp.com/)
+  - [GitHub Pages](https://jmeggles.github.io/nameofproject/)
+  - [GitHub Repo](https://github.com/jmeggles/nameofproject)
 
  ## Screenshots_and_GIFs 
   - ![Short vid of deployed project](https://media.giphy.com/media)
@@ -29,8 +30,7 @@
   ## Motivation
   Why was this project started.
 
-  ## Installation 
-  ![npm](https://img.shields.io/npm/v/npm?color=pink&style=plastic) ![npm](https://img.shields.io/npm/v/inquirer?color=pink&label=inquirer&style=plastic)
+  ## Installation ![npm](https://img.shields.io/npm/v/npm?color=pink&style=plastic) 
   Any install info?
 
   ## How_to_use
@@ -39,17 +39,15 @@
   ## Benefit
   
 
-  ## License 
-  ![APM](https://img.shields.io/apm/l/npm?color=pink&style=plastic)
-  MIT
+  ## License ![APM](https://img.shields.io/apm/l/npm?color=pink&style=plastic)
+  [MIT License](https://opensource.org/licenses/MIT)
 
   ## Credits
-  John Dinsmore, Jorge Alvarez, Ben Benson WebDev Tutoring, W3 Schools (https://www.w3schools.com/js/), Mozilla (https://developer.mozilla.org/en-US/).
+  John Dinsmore, Jorge Alvarez, & Ben Benson with *WebDev Tutoring*
 
   ## Tests
  
 
   ## Contribute
-  Yes. Commit or comment to the project in github.
-
-  © Copyright 2020
+  For comments and/or questions, contact Jody Eggleston via 
+  [Linkedin](https://www.linkedin.com/in/jody-eggleston/)
