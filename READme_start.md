@@ -3,17 +3,17 @@
 
 ## Steps:
 
-Create your server.js file.
+<del>Create your server.js file.</del>
 
-Install packages ( npm install ).
+<del>Install packages ( npm install ).</del>
 
-Add code to your Server.js file to do the following:
+<del>Add code to your Server.js file to do the following:</del>
 - <del>import npm packages</del>
 - <del>use express Middleware ( urlEncoded, json and static ).</del>
 - <del>create PORT and assign to a variable.</del>
 - <del>connect to Mongo Db.</del>
-- import your routes (API and HTML Routes).
-- create code to start the server and listen to requests.
+- <del>import your routes (API and HTML Routes).</del>
+- <del>create code to start the server and listen to requests.</del>
 
 
 <del>Create Model folder and add Model file (Workout.js)</del>
