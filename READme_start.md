@@ -8,10 +8,10 @@ Create your server.js file.
 Install packages ( npm install ).
 
 Add code to your Server.js file to do the following:
-- import npm packages.
-- use express Middleware ( urlEncoded, json and static ).
-- create PORT and assign to a variable.
-- connect to Mongo Db.
+- <del>import npm packages</del>
+- <del>use express Middleware ( urlEncoded, json and static ).</del>
+- <del>create PORT and assign to a variable.</del>
+- <del>connect to Mongo Db.</del>
 - import your routes (API and HTML Routes).
 - create code to start the server and listen to requests.
 
