@@ -33,7 +33,7 @@ Add code to your Server.js file to do the following:
 - <del>Create an index.js file and import the Workout model.</del>
 
 
-Create a Routes folder and create two files:
+<del>Create a Routes folder and create two files:</del>
 -   htmlRoutes.js:
     - Create all the routes to display pages (View)
     - You will need html routes to display the following pages:
@@ -41,7 +41,7 @@ Create a Routes folder and create two files:
         - exercise.html ( "/exercise" )
         - stats.html ( "/stats" )
 
--   apiRoutes.js:
+-   <del>apiRoutes.js:</del>
     - Create all the routes to listen to the requests from the front end.
     - You will need at least Four (4) api routes:
         - GET ( "/api/workouts" ) - Get all workouts
