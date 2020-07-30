@@ -6,23 +6,67 @@
   padding: 0;
 }
 
-html,
+/* html, */
 body,
 .wrapper {
   height: 100%;
+  background-image:  url(../public/assets/images/dumbbellsEdit.jpg);
+  background-size: cover;
+  font-family: "Shadows Into Light";
 }
-
+/* 
 body {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-}
+  font-family: "Shadows Into Light";            /*  DRY code */
+
 
 nav {
-  background-color: #5793fd;
+  background-image: linear-gradient(#dad4d4, #a9a9a9);
   color: #ffffff;
   height: 80px;
   padding: 10px;
   line-height: 3;
-  font-size: 1.2rem;
+  font-family: "Shadows Into Light";
+  text-shadow: 4px 4px 4px #646262;
+  font-size: 1.8rem;
+  /* text-align: center; */
+}
+
+li {
+  display: inline;
+  /* padding-right: 0.2em; */
+  padding-left: 0.7em;
+  border-right: hidden;
+}
+
+li:hover {
+  filter:drop-shadow(5px 5px 15px #01dff7);
+}
+
+h1 {
+  font-family: "Shadows Into Light";
+  font-size: 3.5rem;
+} 
+
+h2,
+h3 {
+  font-family: "Shadows Into Light";
+  font-size: 1.9rem;
+}
+
+#new-workout-btn, #continue-btn {
+  font-family: "Shadows Into Light";
+  font-size: 1.6rem;
+}
+
+label {
+  font-family: "Shadows Into Light";
+  font-size: 1.3rem;
+}
+
+#dashboard-text {
+  font-family: "Shadows Into Light";
+  font-size: 3rem;
+  text-shadow: 4px 4px 4px #aaa;
 }
 
 a,
@@ -40,9 +84,9 @@ header {
   font-size: 1.5rem;
 }
 
-header h1 {
+/* header h1 {
   transform: skewX(-2deg);
-}
+} */
 
 select {
   display: block;
@@ -96,8 +140,10 @@ input {
 }
 
 .wrapper {
-  background-color: #f2f8ff;
+  /* background-image:  url(../public/assets/images/dumbbellsEdit.jpg);  */
+  background-size: cover;
   padding-bottom: 100px;
+
 }
 
 .card.m-auto,
@@ -158,6 +204,10 @@ button {
   background: linear-gradient(to bottom, #ffffff 0%, #e5e5e5 100%);
 }
 
+h2 {
+  text-align: center;
+}
+
 #toast {
   border-radius: 4px;
   border-width: 1px;
@@ -173,6 +223,7 @@ button {
   right: -320px;
   opacity: 0;
   transition: all 0.5s;
+  background-color:#06f9f8;
 }
 
 #toast.success {
@@ -235,7 +286,7 @@ button {
   top: 10px;
   right: -320px;
   opacity: 0;
-  transition: all 0.5s;
+  /* transition: all 0.5s; */           /* DRY code */
 }
 
 #toast.success {
@@ -244,6 +295,7 @@ button {
   color: hsl(94, 90%, 16%);
   transition: all 0.5s;
 }
+
 .workout-type,
 form .cardio-form div,
 form .resistance-form div {
@@ -368,9 +420,9 @@ form > button {
   margin-bottom: 5px;
 }
 
-/* .workout .card {
-  width: 350px;
-} */
+.workout .card {
+  width: 400px;
+}
 
 .prev-workout button {
   margin: 10px;
@@ -403,12 +455,22 @@ form > button {
   width: 50%;
 }
 
+#complete-button {
+  background-color: #d10d0d;
+  font-family: 'Shadows Into Light';
+}
+
+#add-button {
+ background-color: #f8d22d;
+ font-family: 'Shadows Into Light';
+}
+
 .ui.card h2 {
   padding: 10px;
 }
 
 .buttons .ui.button:first-child {
-  border-top-left-radius: 0;
+  /* border-top-left-radius: 0; */         /*  DRY code */
   border-top-right-radius: 0;
   border-bottom-right-radius: 0;
 }
@@ -435,3 +497,4 @@ form > button {
     right: -320px;
   }
 }
+
