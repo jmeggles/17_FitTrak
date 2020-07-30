@@ -16,7 +16,7 @@ Add code to your Server.js file to do the following:
 - create code to start the server and listen to requests.
 
 
-Create Model folder and add Model file (Workout.js)
+<del>Create Model folder and add Model file (Workout.js)</del>
 - include the following properties to the Workout Model:
     - day (type -> Date)
     - exercises (type -> Array)
@@ -30,7 +30,7 @@ Create Model folder and add Model file (Workout.js)
     - reps (type -> Number)
     - sets (type -> Number)
     - distance (type -> Number)
-- Create an index.js file and import the Workout model.
+- <del>Create an index.js file and import the Workout model.</del>
 
 
 Create a Routes folder and create two files:
