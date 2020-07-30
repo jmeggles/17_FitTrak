@@ -13,7 +13,7 @@ let workoutSeed = [
       {
         type: "resistance",
         name: "Bicep Curl",
-        duration: 20,
+        duration: 7,
         weight: 45,
         reps: 10,
         sets: 4
@@ -26,8 +26,8 @@ let workoutSeed = [
       {
         type: "resistance",
         name: "Lateral Pull",
-        duration: 20,
-        weight: 300,
+        duration: 8,
+        weight: 100,
         reps: 10,
         sets: 4
       }
@@ -39,7 +39,7 @@ let workoutSeed = [
       {
         type: "resistance",
         name: "Push Press",
-        duration: 25,
+        duration: 15,
         weight: 185,
         reps: 8,
         sets: 4
@@ -52,7 +52,7 @@ let workoutSeed = [
       {
         type: "cardio",
         name: "Running",
-        duration: 25,
+        duration: 40,
         distance: 4
       }
     ]
@@ -63,8 +63,8 @@ let workoutSeed = [
       {
         type: "resistance",
         name: "Bench Press",
-        duration: 20,
-        weight: 285,
+        duration: 18,
+        weight: 170,
         reps: 10,
         sets: 4
       }
@@ -77,7 +77,7 @@ let workoutSeed = [
         type: "resistance",
         name: "Bench Press",
         duration: 20,
-        weight: 300,
+        weight: 175,
         reps: 10,
         sets: 4
       }
@@ -88,8 +88,8 @@ let workoutSeed = [
     exercises: [
       {
         type: "resistance",
-        name: "Quad Press",
-        duration: 30,
+        name: "Leg Press",
+        duration: 20,
         weight: 300,
         reps: 10,
         sets: 4
@@ -103,7 +103,7 @@ let workoutSeed = [
         type: "resistance",
         name: "Bench Press",
         duration: 20,
-        weight: 300,
+        weight: 180,
         reps: 10,
         sets: 4
       }
@@ -116,7 +116,7 @@ let workoutSeed = [
         type: "resistance",
         name: "Military Press",
         duration: 20,
-        weight: 300,
+        weight: 155,
         reps: 10,
         sets: 4
       }
@@ -126,8 +126,8 @@ let workoutSeed = [
     day: new Date().setDate(new Date().getDate()-1),
     exercises: [
       {
-        type: "resistance",
-        name: "Bench",
+        type: "cardio",
+        name: "Running",
         duration: 30,
         distance: 2
       }

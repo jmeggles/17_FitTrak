@@ -3,20 +3,20 @@
 
 ## Steps:
 
-<del>Create your server.js file.</del>
+<del>Create your server.js file.
 
-<del>Install packages ( npm install ).</del>
+<del>Install packages ( npm install ).
 
-<del>Add code to your Server.js file to do the following:</del>
-- <del>import npm packages</del>
-- <del>use express Middleware ( urlEncoded, json and static ).</del>
-- <del>create PORT and assign to a variable.</del>
-- <del>connect to Mongo Db.</del>
-- <del>import your routes (API and HTML Routes).</del>
-- <del>create code to start the server and listen to requests.</del>
+<del>Add code to your Server.js file to do the following:
+- <del>import npm packages
+- <del>use express Middleware ( urlEncoded, json and static ).
+- <del>create PORT and assign to a variable.
+- <del>connect to Mongo Db.
+- <del>import your routes (API and HTML Routes).
+- <del>create code to start the server and listen to requests.
 
 
-<del>Create Model folder and add Model file (Workout.js)</del>
+<del>Create Model folder and add Model file (Workout.js)
 - include the following properties to the Workout Model:
     - day (type -> Date)
     - exercises (type -> Array)
@@ -30,18 +30,18 @@
     - reps (type -> Number)
     - sets (type -> Number)
     - distance (type -> Number)
-- <del>Create an index.js file and import the Workout model.</del>
+- <del>Create an index.js file and import the Workout model.
 
 
 <del>Create a Routes folder and create two files:
--   htmlRoutes.js:
-    - Create all the routes to display pages (View)
-    - You will need html routes to display the following pages:
-        - index.html ( "/" )
-        - exercise.html ( "/exercise" )
-        - stats.html ( "/stats" )</del>
+-  <del> htmlRoutes.js:
+    - <del>Create all the routes to display pages (View)
+    - <del>You will need html routes to display the following pages:
+        - <del>index.html ( "/" )
+        - <del>exercise.html ( "/exercise" )
+        - <del>stats.html ( "/stats" )
 
--   <del>apiRoutes.js:</del>
+-   <del>apiRoutes.js:
     - Create all the routes to listen to the requests from the front end.
     - You will need at least Four (4) api routes:
         - GET ( "/api/workouts" ) - Get all workouts

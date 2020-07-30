@@ -18,11 +18,15 @@ mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/userdb", { useN
 
 // import your routes (API and HTML Routes)
 // Requiring our routes
-require("./routes/htmlRoute.js")(app);
-require("./routes/apiRoute.js")(app);
+
+// /api/workouts/range
+app.use(require('./routes'))
+// require("./routes/apiRoute.js")(app);
+// require("./routes/htmlRoute.js")(app);
+
 
 // start the server and listen to requests
 // Syncing our database and logging a message to the user upon success
-app.listen(PORT, function() {
+app.listen(PORT, function () {
     console.log("==> 🌎  Listening on port %s. Visit http://localhost:%s/ in your browser.", PORT, PORT);
 });
