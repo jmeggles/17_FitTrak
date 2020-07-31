@@ -17,19 +17,19 @@
 
 
 <del>Create Model folder and add Model file (Workout.js)
-- include the following properties to the Workout Model:
-    - day (type -> Date)
-    - exercises (type -> Array)
+- <del>include the following properties to the Workout Model:
+    - <del>day (type -> Date)
+    - <del>exercises (type -> Array)
 
-- Inside the "exercises" property Array, you will store each of the exercises for that workout as objects.
-- Each object inside the "exercises" property will have the following properties:
-    - type (type -> String)
-    - name (type -> String)
-    - duration (type -> Number)
-    - weight (type -> Number)
-    - reps (type -> Number)
-    - sets (type -> Number)
-    - distance (type -> Number)
+- <del>Inside the "exercises" property Array, you will store each of the exercises for that workout as objects.
+- <del>Each object inside the "exercises" property will have the following properties:
+    - <del>type (type -> String)
+    - <del>name (type -> String)
+    - <del>duration (type -> Number)
+    - <del>weight (type -> Number)
+    - <del>reps (type -> Number)
+    - <del>sets (type -> Number)
+    -<del>distance (type -> Number)
 - <del>Create an index.js file and import the Workout model.
 
 
