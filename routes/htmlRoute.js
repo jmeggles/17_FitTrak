@@ -3,18 +3,18 @@
 const path = require("path");
 const db = require("../models");
 
-module.exports = function(app) {
+module.exports = (app) => {
 // index.html ( "/" )
-  app.get("/", function(req, res) {
+  app.get("/", (req, res) => {
       res.sendFile(path.join(__dirname, "../public/index.html"));
   });
 
 // exercise.html ( "/exercise" )
-  app.get("/exercise", function(req, res) {
+  app.get("/exercise", (req, res) => {
       res.sendFile(path.join(__dirname, "../public/exercise.html"));
   });
 // stats.html ( "/stats" )
-  app.get("/stats", function(req, res) {
+  app.get("/stats", (req, res) => {
       res.sendFile(path.join(__dirname, "../public/stats.html"));
   });
 };
