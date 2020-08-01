@@ -1,20 +1,20 @@
+// Create all the routes to display pages (View)
+// You will need html routes to display the following pages:
 const path = require("path");
-const db = require("../Models");
+const db = require("../models");
 
-const router = require('express').Router();
-// html routes to display the following pages:
-// index.html ( "/" )  (home page)
-router.get("/", function (req, res) {
-  res.sendFile(path.join(__dirname, "../public/index.html"));
-});
+module.exports = function(app) {
+// index.html ( "/" )
+  app.get("/", function(req, res) {
+      res.sendFile(path.join(__dirname, "../public/index.html"));
+  });
 
 // exercise.html ( "/exercise" )
-router.get("/exercise", function (req, res) {
-  res.sendFile(path.join(__dirname, "../public/exercise.html"));
-});
-
+  app.get("/exercise", function(req, res) {
+      res.sendFile(path.join(__dirname, "../public/exercise.html"));
+  });
 // stats.html ( "/stats" )
-router.get("/stats", function (req, res) {
-  res.sendFile(path.join(__dirname, "../public/stats.html"));
-});
-module.exports = router;
+  app.get("/stats", function(req, res) {
+      res.sendFile(path.join(__dirname, "../public/stats.html"));
+  });
+};

@@ -1,11 +1,14 @@
 const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
 
+// - day (type -> Date)
 const WorkoutSchema = new Schema({
   day: {
     type: Date,
     default: Date.now
   },
+  // - exercises (type -> Array)
+  // Each object inside the "exercises" property will have the following properties:
   exercise: [
     {
       // - type (type -> String)
@@ -46,6 +49,7 @@ const WorkoutSchema = new Schema({
   ]
 });
 
+// - You will also need to figure out how to calculate the total duration from all exercises inside the exercises Array.
 WorkoutSchema.virtual("totalDuration").get(function() {
   return this.exercises.reduce((total, exercise) => {
     return total + exercise.duration;
