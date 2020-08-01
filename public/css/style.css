@@ -27,8 +27,8 @@ nav {
   line-height: 3;
   font-family: "Shadows Into Light";
   text-shadow: 4px 4px 4px #646262;
-  font-size: 1.8rem;
-  /* text-align: center; */
+  font-size: 2rem;
+  text-align: center;
 }
 
 li {
