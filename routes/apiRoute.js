@@ -4,16 +4,6 @@ const db = require("../models");
 
 module.exports = (app) => {
 
-  app.get("/api/workouts", (req, res) => {
-    db.Workout.find({})
-      .then(dbWorkout => {
-        res.json(dbWorkout);
-      })
-      .catch(err => {
-        res.json(err);
-      });
-  });
-
   // - GET ( "/api/workouts" ) - Get all workouts
   //  - You will also need to figure out how to calculate the total duration from all exercises inside the exercises Array.
   app.get("/api/workouts", (req, res) => {
