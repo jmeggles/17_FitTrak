@@ -21,6 +21,7 @@ mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/userdb", { useN
 // /api/workouts/range
 require("./routes/apiRoute.js")(app);
 require("./routes/htmlRoute.js")(app);
+require("./models");
 
 
 // start the server and listen to requests

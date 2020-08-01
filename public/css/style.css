@@ -242,8 +242,12 @@ h2 {
 #toast.success {
   opacity: 1;
   right: 10px;
-  background-color: hsl(94, 40%, 86%);
-  color: hsl(94, 90%, 16%);
+  /* background-color: hsl(94, 40%, 86%); */
+  background-color:#06f9f8;
+  /* color: hsl(94, 90%, 16%); */
+  color: red;
+  font-size: 25px;
+  font-weight: bold;
   transition: all 1.2s;
 }
 
@@ -304,8 +308,12 @@ button {
 
 #toast.success {
   right: 10px;
-  background-color: hsl(94, 40%, 86%);
-  color: hsl(94, 90%, 16%);
+  /* background-color: hsl(94, 40%, 86%);
+  color: hsl(94, 90%, 16%); */
+  background-color:#06f9f8;
+  color: red;
+  font-size: 25px;
+  font-weight: bold;
   transition: all 0.5s;
 }
 
@@ -363,8 +371,12 @@ button {
 }
 
 #toast.success {
-  background-color: hsl(94, 40%, 86%);
-  color: hsl(94, 90%, 16%);
+  /* background-color: hsl(94, 40%, 86%);
+  color: hsl(94, 90%, 16%); */
+  background-color:#06f9f8;
+  color: red;
+  font-size: 25px;
+  font-weight: bold;
   animation-name: toast;
   animation-duration: 2s;
   animation-fill-mode: forwards;
@@ -419,8 +431,12 @@ form > button {
 }
 
 #toast.success {
-  background-color: hsl(94, 40%, 86%);
-  color: hsl(94, 90%, 16%);
+  /* background-color: hsl(94, 40%, 86%);
+  color: hsl(94, 90%, 16%); */
+  background-color:#06f9f8;
+  color: red;
+  font-size: 25px;
+  font-weight: bold;
 }
 
 .prev-workout h3 {
