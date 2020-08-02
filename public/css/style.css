@@ -23,7 +23,6 @@ nav {
   background-image: linear-gradient(#dad4d4, #a9a9a9);
   color: #ffffff;
   height: 80px;
-  padding: 10px;
   line-height: 3;
   font-family: "Shadows Into Light";
   text-shadow: 4px 4px 4px #646262;
@@ -32,14 +31,20 @@ nav {
 }
 
 li {
-  display: inline;
-  /* padding-right: 0.2em; */
+  display: inline-block;
+  color: #ffffff;
+  text-align: center;
   padding-left: 0.7em;
   border-right: hidden;
 }
 
 li:hover {
+  color: blue;
   filter:drop-shadow(5px 5px 15px #01dff7);
+  font-size: 2.7rem;
+  transition: ease-in-out .2s;
+  display: inline-block;
+  text-align: center;
 }
 
 h1 {
@@ -81,6 +86,7 @@ label {
   font-size: 1.3rem;
 }
 
+/* for stats page header */
 #dashboard-text {
   font-family: "Shadows Into Light";
   font-size: 3rem;
@@ -96,8 +102,8 @@ a:visited {
 }
 
 header {
-  height: 150px;
-  padding-top: 80px;
+  height: 100px;
+  padding-top: 40px;
   text-align: center;
   font-size: 1.5rem;
 }
@@ -158,10 +164,8 @@ input {
 }
 
 .wrapper {
-  /* background-image:  url(../public/assets/images/dumbbellsEdit.jpg);  */
   background-size: cover;
   padding-bottom: 100px;
-
 }
 
 .card.m-auto,
@@ -466,9 +470,10 @@ form > button {
   display: none;
 }
 
-.mt {
+/* only changes on stats page */
+/* .mt {
   margin-top: 20px;
-}
+} */
 
 .workout .ui.card {
   padding-top: 25px;
@@ -504,7 +509,7 @@ form > button {
 }
 
 .buttons .ui.button:first-child {
-  /* border-top-left-radius: 0; */         /*  DRY code */
+  border-top-left-radius: 0;
   border-top-right-radius: 0;
   border-bottom-right-radius: 0;
 }
