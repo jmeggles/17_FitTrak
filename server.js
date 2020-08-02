@@ -11,7 +11,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(express.static("public"));
 // use logger middleware
-app.use(logger("dev"));
+app.use(logger());
 
 // create PORT and assign to a variable.
 const PORT = process.env.PORT || 3000;
