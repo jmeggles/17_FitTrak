@@ -6,7 +6,7 @@ const mongoose = require("mongoose");
 
 // use express Middleware ( urlEncoded, json and static )
 // Creating express app and configuration
-var app = express();
+const app = express();
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(express.static("public"));
@@ -17,13 +17,11 @@ app.use(logger("dev"));
 const PORT = process.env.PORT || 3000;
 // requiring models for syncing   ???????????????????????????????????????????????????????????
 
-
 // connect to Mongo Db
 mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/userdb", { useNewUrlParser: true });
 
 // import your routes (API and HTML Routes)
 // Requiring our routes
-// /api/workouts/range
 require("./routes/apiRoute.js")(app);
 require("./routes/htmlRoute.js")(app);
 
