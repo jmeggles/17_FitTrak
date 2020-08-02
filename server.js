@@ -2,6 +2,7 @@
 const logger = require("morgan");
 const express = require("express");
 const mongoose = require("mongoose");
+// const path = require("path");
 
 // use express Middleware ( urlEncoded, json and static )
 // Creating express app and configuration
@@ -9,9 +10,13 @@ var app = express();
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(express.static("public"));
+// use logger middleware
+app.use(logger("dev"));
 
 // create PORT and assign to a variable.
 const PORT = process.env.PORT || 3000;
+// requiring models for syncing   ???????????????????????????????????????????????????????????
+
 
 // connect to Mongo Db
 mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/userdb", { useNewUrlParser: true });

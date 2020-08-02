@@ -10,7 +10,7 @@
 body,
 .wrapper {
   height: 100%;
-  background-image:  url(../public/assets/images/dumbbellsEdit.jpg);
+  background-image:  url(../assets/images/dumbbellsEdit.jpg);
   background-size: cover;
   font-family: "Shadows Into Light";
 }
@@ -55,15 +55,20 @@ h3 {
 
 ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
   color: red;
-  opacity: 1; /* Firefox */
+  opacity: .5; /* Firefox */
+  font-style: italic;
 }
 
 :-ms-input-placeholder { /* Internet Explorer 10-11 */
   color: red;
+  opacity: .5;
+  font-style: italic;
 }
 
 ::-ms-input-placeholder { /* Microsoft Edge */
   color: red;
+  opacity: .5;
+  font-style: italic;
 }
 
 #new-workout-btn, #continue-btn {
