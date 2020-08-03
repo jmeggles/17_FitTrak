@@ -15,12 +15,9 @@ app.use(logger("dev"));
 
 // create PORT and assign to a variable.
 const PORT = process.env.PORT || 3000;
-// requiring models for syncing   ???????????????????????????????????????????????????????????
 
 // connect to Mongo Db
-mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/workout", { useNewUrlParser: true });
-
-// user:password1@ds233806.mlab.com:33806/heroku_2c2fbq4k
+mongoose.connect(process.env.MONGODB_URI || "mongodb://user:password1@ds233806.mlab.com:33806/heroku_2c2fbq4k", { useNewUrlParser: true });
 
 // import your routes (API and HTML Routes)
 // Requiring our routes
