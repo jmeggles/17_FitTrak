@@ -9,7 +9,7 @@ const WorkoutSchema = new Schema({
   },
   // - exercises (type -> Array)
   // Each object inside the "exercises" property will have the following properties:
-  exercise: [
+  exercises: [
     {
       // - type (type -> String)
       type: {

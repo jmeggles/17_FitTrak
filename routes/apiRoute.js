@@ -40,6 +40,7 @@ module.exports = (app) => {
 
   // - PUT ( "/api/workouts/:id" ) - Update a Workout
   app.put("/api/workouts/:id", ({ body, params }, res) => {
+    console.log("workout id: ", params.id, "exercises: ", body);
     db.Workout.findByIdAndUpdate(
       params.id,
       { $push: { exercises: body } },

@@ -471,9 +471,10 @@ form > button {
 }
 
 /* only changes on stats page */
-/* .mt {
-  margin-top: 20px;
-} */
+.mt {
+  /* margin-top: 20px; */
+  background-image:  url(../assets/images/dumbbellsStats.jpg);
+}
 
 .workout .ui.card {
   padding-top: 25px;
