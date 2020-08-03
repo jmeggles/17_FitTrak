@@ -1,7 +1,6 @@
 // - Create all the routes to listen to the requests from the front end.
 // - You will need at least Four (4) api routes:
 const db = require("../models");
-// const Workout = require("../models/Workout.js");
 
 module.exports = (app) => {
   // - GET ( "/api/workouts" ) - Get all workouts
@@ -38,7 +37,6 @@ module.exports = (app) => {
       });
   });
 
-  // - PUT ( "/api/workouts/:id" ) - Update a Workout
   app.put("/api/workouts/:id", ({ body, params }, res) => {
     console.log("workout id: ", params.id, "exercises: ", body);
     db.Workout.findByIdAndUpdate(

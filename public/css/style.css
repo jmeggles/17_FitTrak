@@ -10,14 +10,13 @@
 body,
 .wrapper {
   height: 100%;
-  background-image:  url(../assets/images/dumbbellsEdit.jpg);
+  background:  url(../assets/images/dumbbellsStats.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
   font-family: "Shadows Into Light";
 }
-/* 
-body {
-  font-family: "Shadows Into Light";            /*  DRY code */
-
 
 nav {
   background-image: linear-gradient(#dad4d4, #a9a9a9);
@@ -58,6 +57,9 @@ h3 {
   font-size: 1.9rem;
 }
 
+.workout-stats {
+  font-size: 1.2rem;
+}
 ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
   color: red;
   opacity: .5; /* Firefox */
@@ -471,10 +473,14 @@ form > button {
 }
 
 /* only changes on stats page */
-.mt {
+/* .mt { */
   /* margin-top: 20px; */
-  background-image:  url(../assets/images/dumbbellsStats.jpg);
-}
+  /* background:  url(../assets/images/dumbbellsStats.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+} */
 
 .workout .ui.card {
   padding-top: 25px;
