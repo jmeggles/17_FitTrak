@@ -16,12 +16,13 @@
   - [Contribute](#Contribute)
 
   ## Links
+  - [Video](https://drive.google.com/file/d/1IjnHgv2WOny1pHBLBSynCb7MhYCyWxOp/view) of the deployed project.
   - [Heroku](https://nameofherokuproject.herokuapp.com/)
   - [GitHub Pages](https://jmeggles.github.io/nameofproject/)
   - [GitHub Repo](https://github.com/jmeggles/nameofproject)
 
  ## Screenshots_and_GIFs 
-  - ![Short vid of deployed project](https://media.giphy.com/media)
+  - ![Viedo of deployed project](https://drive.google.com/file/d/1IjnHgv2WOny1pHBLBSynCb7MhYCyWxOp/view)
   - ![Screenshot of deployed project](./assets/images/screenshot1.png)  
   - ![Screenshot of deployed project](./assets/images/screenshot2.png)
   - ![Screenshot of deployed project](./assets/images/screenshot3.png)  
