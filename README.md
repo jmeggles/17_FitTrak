@@ -1,4 +1,4 @@
- # Project Name ![GitHub deployments](https://img.shields.io/github/deployments/badges/shields/shields-staging?color=pink) [![Build Status](https://travis-ci.org/jmeggles/17_FitTrak.svg?branch=master)](https://travis-ci.org/jmeggles/17_FitTrak)
+ # Project Name ![GitHub deployments](https://img.shields.io/github/deployments/badges/shields/shields-staging?color=pink) [![Build Status](https://travis-ci.com/jmeggles/17_FitTrak.svg?token=8E1CwBw77wPRNcJKXNDv&branch=master)](https://travis-ci.com/jmeggles/17_FitTrak)
   FitTrak
 
   ## Overview 
@@ -6,7 +6,7 @@
 
   ## Table of Contents:
   - [Links](#Links)
-  - [Screenshots and GIFs](#Screenshots_and_GIFs)
+  - [GIFs](#GIFs)
   - [Motivation](#Motivation)
   - [Installation](#Installation)
   - [How to use](#How_to_use)
@@ -14,40 +14,38 @@
   - [License](#License)
   - [Tests](#Tests)
   - [Contribute](#Contribute)
+  - [Screenshots](#Screenshots)
 
   ## Links
   - [Video](https://drive.google.com/file/d/1IjnHgv2WOny1pHBLBSynCb7MhYCyWxOp/view) of the deployed project through Google Drive (download to view vid).
-  - [Heroku](https://nameofherokuproject.herokuapp.com/)
-  - [GitHub Pages](https://jmeggles.github.io/nameofproject/)
-  - [GitHub Repo](https://github.com/jmeggles/nameofproject)
-  [vid](https://media.giphy.com/media/eKJDGmBIwUJLHmDjXM/giphy.gif)
-  [vid](https://media.giphy.com/media/eKJDGmBIwUJLHmDjXM/source.mp4)
-  [vid](https://giphy.com/gifs/eKJDGmBIwUJLHmDjXM)
-  [vid](https://giphy.com/gifs/eKJDGmBIwUJLHmDjXM/html5)
+  - [Heroku](https://fit-trak.herokuapp.com/)
+  - [GitHub Pages](https://jmeggles.github.io/17_FitTrak/)
+  - [GitHub Repo](https://github.com/jmeggles/17_FitTrak)
 
+ ## GIFs 
+  - ![Video of deployed project](https://media.giphy.com/media/eKJDGmBIwUJLHmDjXM/giphy.gif)
+  - ![Video of deployed project](https://media.giphy.com/media/Kdx3QqrMFD9neehVhz/giphy.gif)
 
- ## Screenshots_and_GIFs 
-  - ![Viedo of deployed project]()
-  - ![Screenshot of deployed project](./assets/images/screenshot1.png)  
-  - ![Screenshot of deployed project](./assets/images/screenshot2.png)
-  - ![Screenshot of deployed project](./assets/images/screenshot3.png)  
   
   ## Motivation
-  Why was this project started.
+  Trackers help people keep info for reference.  Fitness trackers help the same and is an essential tool in weight loss, muscle building, or overall health in general. I know how just useful trackers are.  Spending many years in bodybuilding, I needed to stay on track and keep logs of my progress.  This app is an easy to navigate simple tracker to log workouts weather it's weight training or cardiovascular.  FitTrak will keep you on track!  
 
   ## Installation ![npm](https://img.shields.io/npm/v/npm?color=pink&style=plastic) 
-  Any install info?
+  No installation needed.  Open with this link  - [Heroku](https://fit-trak.herokuapp.com/).
 
   ## How_to_use
-
+  - Follow link to deploy app and click on "New Workout" to log first exercise.  
+  - Select "Resistance" or "Cardio" from the drop down menu then enter required information the spots below.  
+  - Click on "Stats" in the navigation bar above to view all workouts.
 
   ## Benefit
-  
+  Anyone who needs to help keeping logs of workouts.  The best way to make progress is to keep detailed logs for reference.  
 
   ## Credits
   John Dinsmore, Jorge Alvarez, & Ben Benson with *WebDev Tutoring*
 
   ## Tests
+  Console logs were used along the way.  However, there is one known bug.  The Total Duration is still not functioning proeperly on the home screen and will be updated ASAP.  
  
   ## License ![APM](https://img.shields.io/apm/l/npm?color=pink&style=plastic)
   [MIT License](https://opensource.org/licenses/MIT)
@@ -57,3 +55,9 @@
   ## Contribute
   For comments and/or questions, contact Jody Eggleston via 
   [Linkedin](https://www.linkedin.com/in/jody-eggleston/)
+
+  ## Screenshots
+  To view complete video of FitTrak please visit Google Drive [here](https://drive.google.com/file/d/1IjnHgv2WOny1pHBLBSynCb7MhYCyWxOp/view) and click download.
+    - ![Screenshot of deployed project](./public/assets/images/screenshot1.png)  
+    - ![Screenshot of deployed project](./public/assets/images/screenshot2.png)
+    - ![Screenshot of deployed project](./public/assets/images/screenshot3.png)  
