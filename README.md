@@ -16,17 +16,21 @@
   - [Contribute](#Contribute)
 
   ## Links
-  - [Video](https://drive.google.com/file/d/1IjnHgv2WOny1pHBLBSynCb7MhYCyWxOp/view) of the deployed project.
+  - [Video](https://drive.google.com/file/d/1IjnHgv2WOny1pHBLBSynCb7MhYCyWxOp/view) of the deployed project through Google Drive (download to view vid).
   - [Heroku](https://nameofherokuproject.herokuapp.com/)
   - [GitHub Pages](https://jmeggles.github.io/nameofproject/)
   - [GitHub Repo](https://github.com/jmeggles/nameofproject)
+  [vid](https://media.giphy.com/media/eKJDGmBIwUJLHmDjXM/giphy.gif)
+  [vid](https://media.giphy.com/media/eKJDGmBIwUJLHmDjXM/source.mp4)
+  [vid](https://giphy.com/gifs/eKJDGmBIwUJLHmDjXM)
+  [vid](https://giphy.com/gifs/eKJDGmBIwUJLHmDjXM/html5)
+
 
  ## Screenshots_and_GIFs 
-  - ![Viedo of deployed project](https://drive.google.com/file/d/1IjnHgv2WOny1pHBLBSynCb7MhYCyWxOp/view)
+  - ![Viedo of deployed project]()
   - ![Screenshot of deployed project](./assets/images/screenshot1.png)  
   - ![Screenshot of deployed project](./assets/images/screenshot2.png)
   - ![Screenshot of deployed project](./assets/images/screenshot3.png)  
-  - ![Screenshot of deployed project](./assets/images/screenshot4.png)
   
   ## Motivation
   Why was this project started.
