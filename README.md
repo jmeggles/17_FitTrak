@@ -11,10 +11,11 @@
   - [Installation](#Installation)
   - [How to use](#How_to_use)
   - [Benefit](#Benefit)
-  - [License](#License)
-  - [Tests](#Tests)
-  - [Contribute](#Contribute)
   - [Screenshots](#Screenshots)
+  - [Tests](#Tests)
+  - [License](#License)
+  - [Contribute](#Contribute)
+
 
   ## Links
   - [Video](https://drive.google.com/file/d/1IjnHgv2WOny1pHBLBSynCb7MhYCyWxOp/view) of the deployed project through Google Drive (download to view vid).
@@ -46,6 +47,13 @@
 
   ## Tests
   Console logs were used along the way.  However, there is one known bug.  The Total Duration is still not functioning proeperly on the home screen and will be updated ASAP.  
+
+  ## Screenshots
+  To view complete video of FitTrak please visit Google Drive [here](https://drive.google.com/file/d/1IjnHgv2WOny1pHBLBSynCb7MhYCyWxOp/view) and click download.
+    - ![Screenshot of deployed project](./public/assets/images/screenshot1.png)  
+    - ![Screenshot of deployed project](./public/assets/images/screenshot2.png)
+    - ![Screenshot of deployed project](./public/assets/images/screenshot3.png)  
+
  
   ## License ![APM](https://img.shields.io/apm/l/npm?color=pink&style=plastic)
   [MIT License](https://opensource.org/licenses/MIT)
@@ -56,8 +64,4 @@
   For comments and/or questions, contact Jody Eggleston via 
   [Linkedin](https://www.linkedin.com/in/jody-eggleston/)
 
-  ## Screenshots
-  To view complete video of FitTrak please visit Google Drive [here](https://drive.google.com/file/d/1IjnHgv2WOny1pHBLBSynCb7MhYCyWxOp/view) and click download.
-    - ![Screenshot of deployed project](./public/assets/images/screenshot1.png)  
-    - ![Screenshot of deployed project](./public/assets/images/screenshot2.png)
-    - ![Screenshot of deployed project](./public/assets/images/screenshot3.png)  
+  
