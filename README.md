@@ -2,7 +2,7 @@
   FitTrak
 
   ## Overview 
-  Reach your fitness goals quicker with FitTrak!! Create and track daily workouts and log multiple exercises in a workout on a given day. Track the name, type, weight, sets, reps, and duration of exercise. If the exercise is cardio, no sweat!!...track the distance traveled.  You're on the right FitTrak!
+  Reach your fitness goals quicker with FitTrak!! Create and track daily workouts and log multiple exercises in a workout on a given day which stores your info using MongoDB. Track the name, type, weight, sets, reps, and duration of exercise. If the exercise is cardio, no sweat!!...track the distance traveled.  You're on the right FitTrak! 
 
   ## Table of Contents:
   - [Links](#Links)
@@ -32,7 +32,7 @@
   Trackers help people keep info for reference.  Fitness trackers help the same and is an essential tool in weight loss, muscle building, or overall health in general. I know how just useful trackers are.  Spending many years in bodybuilding, I needed to stay on track and keep logs of my progress.  This app is an easy to navigate simple tracker to log workouts weather it's weight training or cardiovascular.  FitTrak will keep you on track!  
 
   ## Installation ![npm](https://img.shields.io/npm/v/npm?color=pink&style=plastic) 
-  No installation needed.  Open with this link  - [Heroku](https://fit-trak.herokuapp.com/).
+  No installation needed.  Open with this link [Heroku](https://fit-trak.herokuapp.com/).
 
   ## How_to_use
   - Follow link to deploy app and click on "New Workout" to log first exercise.  
