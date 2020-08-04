@@ -18,13 +18,13 @@
 
   ## Links
   - [Video](https://drive.google.com/file/d/1IjnHgv2WOny1pHBLBSynCb7MhYCyWxOp/view) of the deployed project through Google Drive (download to view vid).
-  - [Heroku](https://fit-trak.herokuapp.com/)
-  - [GitHub Pages](https://jmeggles.github.io/17_FitTrak/)
-  - [GitHub Repo](https://github.com/jmeggles/17_FitTrak)
+  - [Heroku](https://fit-trak.herokuapp.com/) to use the app.
+  - [GitHub Pages](https://jmeggles.github.io/17_FitTrak/) to view README.
+  - [GitHub Repo](https://github.com/jmeggles/17_FitTrak) to view the code.
 
  ## GIFs 
   - ![Video of deployed project](https://media.giphy.com/media/eKJDGmBIwUJLHmDjXM/giphy.gif)
-  - ![Video of deployed project](https://media.giphy.com/media/Kdx3QqrMFD9neehVhz/giphy.gif)
+  - ![Video of deployed project](https://media.giphy.com/media/McPHKu2zV5fImDZMYj/giphy.gif)
 
   
   ## Motivation
