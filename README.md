@@ -29,7 +29,7 @@
 
   
   ## Motivation
-  Trackers help people keep info for reference.  Fitness trackers help the same and is an essential tool in weight loss, muscle building, or overall health in general. I know how just useful trackers are.  Spending many years in bodybuilding, I needed to stay on track and keep logs of my progress.  This app is an easy to navigate simple tracker to log workouts weather it's weight training or cardiovascular.  FitTrak will keep you on track!  
+  Trackers help people keep info for reference.  Fitness trackers help the same and is an essential tool in weight loss, muscle building, or overall health in general. I know how just useful trackers are.  Spending many years in bodybuilding, I needed to stay on track and keep logs of my progress.  This app is an easy to navigate simple tracker to log workouts whether it's weight training or cardiovascular.  FitTrak will keep you on track!  
 
   ## Installation ![npm](https://img.shields.io/npm/v/npm?color=pink&style=plastic) 
   No installation needed.  Open with this link [Heroku](https://fit-trak.herokuapp.com/).
