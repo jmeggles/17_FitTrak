@@ -44,6 +44,9 @@ const WorkoutSchema = new Schema({
       // - distance (type -> Number)
       distance: {
         type: Number,
+      // },
+      // totalDuration: {
+      //   type: Number
       }
     }
   ]
@@ -51,10 +54,13 @@ const WorkoutSchema = new Schema({
 
 // - You will also need to figure out how to calculate the total duration from all exercises inside the exercises Array.
 WorkoutSchema.virtual("totalDuration").get(function() {
+  console.log("this is total duraton: ", virtual);
   return this.exercises.reduce((total, exercise) => {
-    return total + exercise.duration;
+    return total += exercise.duration;
   }, 0);
-});
+}).set(function(totalDuration) {
+  this.totalDuration = totalDuration;
+})
 
 const Workout = mongoose.model("Workout", WorkoutSchema);
 // export Workout module 

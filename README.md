@@ -1,4 +1,4 @@
- # Project Name ![GitHub deployments](https://img.shields.io/github/deployments/badges/shields/shields-staging?color=pink) [![Build Status](https://travis-ci.com/jmeggles/17_FitTrak.svg?token=8E1CwBw77wPRNcJKXNDv&branch=master)](https://travis-ci.com/jmeggles/17_FitTrak)
+ # Project Name ![GitHub deployments](https://img.shields.io/github/deployments/badges/shields/shields-staging?color=pink) 
   FitTrak
 
   ## Overview 
