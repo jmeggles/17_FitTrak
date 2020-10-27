@@ -19,7 +19,7 @@ const PORT = process.env.PORT || 3000;
 // connect to Mongo Db
 // mongoose.connect(process.env.MONGODB_URI || "mongodb://user:password1@ds233806.mlab.com:33806/heroku_2c2fbq4k", { useNewUrlParser: true });
 mongoose.connect(
-    process.env.MONGODB_URI || 'mongodb://localhost/workouts',
+    process.env.MONGODB_URI || 'mongodb://localhost/fitrak',
     {
       useNewUrlParser: true,
       useUnifiedTopology: true,
